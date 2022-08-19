@@ -217,10 +217,24 @@ vertical-align: middle;
 margin: 2em -1em 0em 2em;	
 }
 
+
+
+.col-one-third {
+width: 32%;
+}
+
+.col-one-third img {
+float: left;
+width: 100%;
+height: auto;
+vertical-align: middle;
+margin: 2em -1em 0em 2em;	
+}
+
+
 .col-one-fourth {
 width: 25%;
 }
-
 
 .col-one-fourth img {
 float: left;
