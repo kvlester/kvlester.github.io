@@ -72,19 +72,21 @@ background-color: rgba(255, 255, 255, 0.3);
 
 
 
+
 body {
-background: #7F2045;
+background: #669999;
+/* background: linear-gradient(#7A0935, #2E0314); */
 background: linear-gradient(#669999, #806699); 
 color: #FFFFFF;
 line-height: 1.8;
-margin: 2em 2em 2em 2em;
+margin: 1em 5em 0em 5em;
 display: inline-block;
 }
 
 
 .button {
 font-weight: normal;
-font-size: 16px;
+font-size: 14px;
 border: 2px #30245C solid;
 padding: 8px 20px;
 border-radius: 30px;
@@ -108,9 +110,9 @@ border-bottom-color: #30245C;
 background-color: #FFF;
 color: #000;
 text-align: left;
-margin-top: 4em;
+margin-top: 2em;
 padding: 2em 2em 1.5em 4em;
-border-radius: 25px;
+border-radius: 10px;
 }
 
 .info-box-light2 {
@@ -118,9 +120,8 @@ background-color: #FFF;
 color: #000;
 text-align: left;
 margin-top: 0em;
-padding: 2em;
-border-radius: 25px;
-
+padding: 2em 2em 1.5em 4em;
+border-radius: 15px;
 }
 
 
@@ -150,7 +151,8 @@ font-size: 10px;
 
 p {
 font-size: 16px;
-margin-bottom: 20px;
+margin-bottom: 30px;
+margin-right: 30px;
 line-height: 1.8;
 }
 
@@ -165,31 +167,15 @@ body a:hover {
 border-bottom: solid 1px;
 }
 
-.col {
-width: 100%;
-float: left;
-padding: 0px 7px 14px;
-}
-
-.col-one-half {
-width: 50%;
-}
-
-.col-one-fourth {
-width: 25%;
-}
-
-.col-one-third {
-width: 33%;
-}
 
 img {
-width: 99%;
+float: right;
+width: 50%;
 height: auto;
 vertical-align: middle;
-float: center;
-border-radius: 10px;	
+border-radius: 10px;
 }
+
 
 
 .katie img {
@@ -211,15 +197,70 @@ margin: 0em 1.5em 1em 2em;
 border-radius: 10px;
 }
 
+.col {
+width: 100%;
+float: left;
+/* padding: 0px 7px 14px; */
+}
+
+.col-one-half {
+width: 50%;
+}
+
+.col-one-half img {
+float: left;
+width: 100%;
+height: auto;
+vertical-align: middle;
+}
+
+
+
+.col-one-third {
+width: 33%;
+padding: 0px 7px 0px 7px;
+}
+
+.col-one-third img {
+float: left;
+width: 100%;
+height: auto;
+vertical-align: middle;
+}
+
+
+.col-one-fourth {
+width: 25%;
+}
+
+.col-one-fourth img {
+float: left;
+width: 100%;
+height: auto;
+vertical-align: middle;
+}
+
+
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
 
 
 
 footer {
-color: #666;
+float: right;
+	
+color: #000000;
+font-size: 10px;
 }
 
 footer p {
+color: #000000;
 font-size: 10px;
 }
-	
-	
