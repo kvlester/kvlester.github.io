@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*All Views --------------------------------------------------------------------------- */
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", Helvetica Neue Light, Helvetica, sans-serif;
+}
+
+/*Mobile View --------------------------------------------------------------------------- */
+
+
+header {
+padding: 0em 0em 0em 0em; width: 100%;
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+color: #FFFFFF;
+background: rgba(230, 244, 248, 0.90);
+}
+
+
+header p{
+float: center;
+font-size: 4em;
+line-height: 10%;
+padding: 30px 0 0 0;
+font-family: "Dancing Script", Helvetica, serif;
+text-align: center;
+}
+
+
+.style-nav {
+float: center;
+}
+
+.style-nav ul {
+list-style-type: none;
+text-align: center;
+margin-top: 0.0em;
+margin-right: 3.0em;
+}
+
+.style-nav ul li {
+display: inline-block;
+}
+
+.style-nav ul li a {
+text-decoration: none;
+color: #FFFFFF;
+text-align: center;
+display: inline-block;
+text-transform: uppercase;
+padding: 10px 10px 10px 10px;
+font-size: 1.5em;
+border-bottom-color: transparent;
+margin-right: 5px;
+border-radius: 25px;
+
+}
+
+.style-nav a:hover {
+background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
+
+body {
+background: #30245C;
+background: linear-gradient(#30245C, #883644);
+color: #FFFFFF;
+line-height: 1.8;
+margin: 2em 2em 2em 2em;
+display: inline-block;
+}
+
+
+.button {
+font-weight: normal;
+font-size: 16px;
+border: 2px #30245C solid;
+padding: 8px 20px;
+border-radius: 30px;
+color: #000;
+text-decoration: none;
+}
+
+.button a {
+text-decoration: none;
+}
+
+.button:hover {
+background: #F4F4F4;
+text-decoration: none;
+border-bottom: solid 2px;
+border-bottom-color: #30245C;
+}
+
+
+.info-box-light {
+background-color: #FFF;
+color: #000;
+text-align: left;
+margin-top: 4em;
+padding: 2em 2em 1.5em 4em;
+border-radius: 25px;
+}
+
+.info-box-light2 {
+background-color: #FFF;
+color: #000;
+text-align: left;
+margin-top: 0em;
+padding: 2em;
+border-radius: 25px;
+
+}
+
+
+h1 {
+font-family: "Dancing Script", "Roboto Condensed", Helvetica;
+font-size: 3em;
+margin-bottom: 10px;
+margin-top: 0em;
+text-align: center;
+}
+
+h2 {
+font-size: 18px;
+text-transform: uppercase;
+margin-bottom: 5px;
+}
+
+h3 {
+font-size: 10px;
+font-weight: normal;
+}
+
+
+p {
+font-size: 16px;
+margin-bottom: 60px;
+line-height: 1.8;
+}
+
+
+body a {
+text-decoration: none;
+color: #2F322A;
+border-bottom: dotted 1px;
+}
+
+body a:hover {
+border-bottom: solid 1px;
+}
+
+.col {
+width: 100%;
+float: left;
+padding: 0px 7px 14px;
+}
+
+.col-one-half {
+width: 50%;
+}
+
+.col-one-fourth {
+width: 25%;
+}
+
+img {
+width: 90%;
+height: auto;
+vertical-align: middle;
+float: center;
+margin: 2.0em;
+border-radius: 10px;	
+}
+
+
+.katie img {
+float: right;
+width: 40%;
+height: auto;
+vertical-align: middle;
+margin: 0em 1.5em 1em 2em;	
+border-radius: 10px;
+}
+
+
+.katie-small img {
+float: right;
+width: 20%;
+height: auto;
+vertical-align: middle;
+margin: 0em 1.5em 1em 2em;	
+border-radius: 10px;
+}
+
+
+
+
+footer {
+color: #666;
+}
+
+footer p {
+font-size: 10px;
+}
+	
+	
