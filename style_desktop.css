@@ -81,8 +81,10 @@ background-color: rgba(255, 255, 255, 0.3);
 
 body {
 background: #669999;
-/* background: linear-gradient(#7A0935, #2E0314); */
-background: linear-gradient(#669999, #806699); 
+/* background: linear-gradient(#7A0935, #2E0314);
+background: linear-gradient(#669999, #806699);  */
+background: linear-gradient(#691B3A, #8F546B, #8F546B); 
+	
 color: #FFFFFF;
 line-height: 1.8;
 margin: 1em 5em 0em 5em;
